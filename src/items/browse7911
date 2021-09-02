@@ -3,16 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Omeka has encountered an error</title>
-    <link rel="stylesheet" media="all" href="/omeka/application/views/scripts/css/style.css">
-    <link rel="stylesheet" media="all" href="/omeka/application/views/scripts/css/skeleton.css">
-    <link rel="stylesheet" media="all" href="/omeka/application/views/scripts/css/layout.css">
+    <link rel="stylesheet" media="all" href="{{ '' | absolute_url }}/application/views/scripts/css/style.css">
+    <link rel="stylesheet" media="all" href="{{ '' | absolute_url }}/application/views/scripts/css/skeleton.css">
+    <link rel="stylesheet" media="all" href="{{ '' | absolute_url }}/application/views/scripts/css/layout.css">
     <link href='//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Cabin:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body id="debug">
     <div class="container container-sixteen">
         <div id="content" class="ten columns offset-by-three">
             <h1>Omeka has encountered an error</h1>
-                            <p>To learn how to see more detailed information about this error, see the Omeka Classic User Manual page on <a href="http://omeka.org/classic/docs/Troubleshooting/Retrieving_Error_Messages/">retrieving error messages</a>.                </p>
+                            <p>To learn how to see more detailed information about this error, see the Omeka Classic User Manual page on <a href="https://omeka.org/classic/docs/Troubleshooting/Retrieving_Error_Messages/">retrieving error messages</a>.                </p>
                     </div>
     </div>
 </body>
